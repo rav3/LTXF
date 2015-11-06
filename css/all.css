@@ -1,0 +1,826 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\0000312}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\0000330}}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\0000341}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\0000350}}
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\0000364}}
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+ * Removes default margin.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\0000374}}
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\0000386}}
+a:focus {
+  outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\0000394}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003108}}
+h1 {
+  font-size: 2em;
+}
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003116}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003124}}
+b,
+strong {
+  font-weight: bold;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003133}}
+dfn {
+  font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003141}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003151}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003163}}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/*
+ * Sets consistent quote types.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003173}}
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003181}}
+small {
+  font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003189}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003197}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003201}}
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003213}}
+img {
+  border: 0;
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003221}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003233}}
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003245}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003256}}
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003267}}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003281}}
+button,
+input {
+  line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003294}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003306}}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003316}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003328}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003340}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003349}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003360}}
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_normalize\.scss}line{font-family:\00003373}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*  Syntax Quick Reference
+  --------------------------
+  column($ratios: 1, $offset: 0, $cycle: 0, $uncycle: 0, $gutter: $jeet-gutter)
+  span($ratio: 1, $offset: 0)
+  shift($ratios: 0, $col_or_span: column, $gutter: $jeet-gutter)
+  unshift()
+  edit()
+  center($max_width: 1410px, $pad: 0)
+  stack($pad: 0, $align: false)
+  unstack()
+  align($direction: both)
+  cf()
+*/
+/**
+ * Grid settings.
+ * All values are defaults and can therefore be easily overidden.
+ */
+/**
+ * List functions courtesy of the wonderful folks at Team Sass.
+ * Check out their awesome grid: Singularity.
+ */
+/**
+ * Get  percentage from a given ratio.
+ * @param {number} [$ratio=1] - The column ratio of the element.
+ * @returns {number} - The percentage value.
+ */
+/**
+ * Work out the column widths based on the ratio and gutter sizes.
+ * @param {number} [$ratios=1] - The column ratio of the element.
+ * @param {number} [$gutter=$jeet-gutter] - The gutter for the column.
+ * @returns {list} $width $gutter - A list containing the with and gutter for the element.
+ */
+/**
+ * Get the set layout direction for the project.
+ * @returns {string} $direction - The layout direction.
+ */
+/**
+ * Replace a specified list value with a new value (uses built in set-nth() if available)
+ * @param {list} $list - The list of values you want to alter.
+ * @param {number} $index - The index of the list item you want to replace.
+ * @param {*} $value - The value you want to replace $index with.
+ * @returns {list} $list - The list with the value replaced or removed.
+ * @warn if an invalid index is supplied.
+ */
+/**
+ * Reverse a list (progressively enhanced for Sass 3.3)
+ * @param {list} $list - The list of values you want to reverse.
+ * @returns {list} $result - The reversed list.
+ */
+/**
+ * Get the opposite direction to a given value.
+ * @param {string} $dir - The direction you want the opposite of.
+ * @returns {string} - The opposite direction to $dir.
+ * @warn if an incorrect string is provided.
+ */
+/**
+ * Style an element as a column with a gutter.
+ * @param {number} [$ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [$offset=0] - A offset specified as a fraction (see $ratios).
+ * @param {number} [$cycle=0] - Easily create an nth column grid where $cycle equals the number of columns.
+ * @param {number} [$uncycle=0] - Undo a previous cycle value to allow for a new one.
+ * @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * An alias for the column mixin.
+ * @param [$args...] - All arguments get passed through to column().
+ */
+/**
+ * Get the width of a column and nothing else.
+ * @param {number} [$ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * Get the gutter size of a column and nothing else.
+ * @param {number} [ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * An alias for the column-width function.
+ * @param [$args...] - All arguments get passed through to column().
+ */
+/**
+ * An alias for the column-gutter function.
+ * @param [$args...] - All arguments get passed through to column().
+ */
+/**
+ * Style an element as a column without any gutters for a seamless row.
+ * @param {number} [$ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [$offset=0] - A offset specified as a fraction (see $ratios).
+ * @param {number} [cycle=0] - Easily create an nth column grid where cycle equals the number of columns.
+ * @param {number} [uncycle=0] - Undo a previous cycle value to allow for a new one.
+ */
+/**
+ * Reorder columns without altering the HTML.
+ * @param {number} [$ratios=0] - Specify how far along you want the element to move.
+ * @param {string} [$col-or-span=column] - Specify whether the element has a gutter or not.
+ * @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * Reset an element that has had shift() applied to it.
+ */
+/**
+ * View the grid and its layers for easy debugging.
+ * @param {string} [$color=black] - The background tint applied.
+ * @param {boolean} [$important=false] - Whether to apply the style as !important.
+ */
+/**
+ *  Alias for edit().
+ */
+/**
+ * Horizontally center an element.
+ * @param {number} [$max-width=1410px] - The max width the element can be.
+ * @param {number} [$pad=0] - Specify the element's left and right padding.
+ */
+/**
+ * Uncenter an element.
+ */
+/**
+ * Stack an element so that nothing is either side of it.
+ * @param {number} [$pad=0] - Specify the element's left and right padding.
+ * @param {boolean/string} [$align=false] - Specify the text align for the element.
+ */
+/**
+ * Unstack an element.
+ */
+/**
+ * Center an element on either or both axes.
+ * @requires A parent container with relative positioning.
+ * @param {string} [$direction=both] - Specify which axes to center the element on.
+ */
+/**
+ * Apply a clearfix to an element.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_base\.scss}line{font-family:\000033}}
+html,
+body {
+  height: 100%;
+  background-color: #f0f0f0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_base\.scss}line{font-family:\0000310}}
+body {
+  font-size: 100%;
+}
+@media (max-width: 420px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_base\.scss}line{font-family:\0000310}}
+  body {
+    font-size: 150%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_base\.scss}line{font-family:\0000319}}
+#topbar {
+  *zoom: 1;
+  padding: 40px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003345}}
+#topbar:before, #topbar:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003350}}
+#topbar:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_base\.scss}line{font-family:\0000323}}
+#topbar .siteTitle {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_base\.scss}line{font-family:\0000328}}
+#topbar nav {
+  *zoom: 1;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003345}}
+#topbar nav:before, #topbar nav:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003350}}
+#topbar nav:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\000031}}
+#container {
+  *zoom: 1;
+  width: auto;
+  max-width: 100%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003345}}
+#container:before, #container:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003350}}
+#container:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\000035}}
+section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000310}}
+.group {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003345}}
+.group:before, .group:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003350}}
+.group:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000313}}
+.col-1-2 {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003345}}
+.col-1-2:before, .col-1-2:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003350}}
+.col-1-2:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\0000359}}
+.col-1-2:last-child {
+  margin-right: 0%;
+}
+@media (max-width: 420px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000313}}
+  .col-1-2 {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003345}}
+  .col-1-2:before, .col-1-2:after {
+    content: '';
+    display: table;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003350}}
+  .col-1-2:after {
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\0000359}}
+  .col-1-2:last-child {
+    margin-right: 0%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000319}}
+.grid {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003345}}
+.grid:before, .grid:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003350}}
+.grid:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000322}}
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+@media (max-width: 420px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000327}}
+  .grid-sizer {
+    width: 100%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000333}}
+.grid-item {
+  float: left;
+}
+@media (max-width: 420px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000333}}
+  .grid-item {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000339}}
+.grid-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000348}}
+.grid-item h3 {
+  position: absolute;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-weight: 100;
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000356}}
+.grid-item img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000363}}
+img {
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000369}}
+.noPadding {
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_typography\.scss}line{font-family:\000031}}
+h1 {
+  font-size: 3em;
+  /* 48 / 16 */
+  line-height: 1em;
+  /* 48 / 48 */
+  margin-bottom: .5em;
+  /* 24 / 48 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_typography\.scss}line{font-family:\000036}}
+h2 {
+  font-size: 2.25em;
+  /* 36 / 16 */
+  line-height: 1.333333333333333em;
+  /* 48 / 36 */
+  margin-bottom: .6666666666666667em;
+  /* 24 / 36 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_typography\.scss}line{font-family:\0000311}}
+h3 {
+  font-size: 1.5em;
+  /* 24 / 16 */
+  line-height: 1em;
+  /* 24 / 24 */
+  margin-bottom: 1em;
+  /* 24 / 24 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_typography\.scss}line{font-family:\0000316}}
+h4 {
+  font-size: 1.3125em;
+  /* 21 / 16 */
+  line-height: 1.142857142857143em;
+  /* 24 / 21 */
+  margin-bottom: 1.142857142857143em;
+  /* 24 / 21 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_typography\.scss}line{font-family:\0000321}}
+h5 {
+  font-size: 1.125em;
+  /* 18 / 16 */
+  line-height: 1.333333333333333em;
+  /* 24 / 18 */
+  margin-bottom: 1.333333333333333em;
+  /* 24 / 18 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_typography\.scss}line{font-family:\0000326}}
+h6 {
+  font-size: 1em;
+  /* 16 / 16 */
+  line-height: 1.5em;
+  /* 24 / 16 */
+  margin-bottom: 1.5em;
+  /* 24 / 16 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_typography\.scss}line{font-family:\0000331}}
+p {
+  font-size: 1em;
+  /* 16 / 16 */
+  line-height: 1.5em;
+  /* 24 / 16 */
+  margin-bottom: 1.5em;
+  /* 24 / 16 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_typography\.scss}line{font-family:\0000337}}
+.category {
+  font-style: italic;
+  font-weight: 500;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_typography\.scss}line{font-family:\0000342}}
+.title,
+.subTitle {
+  font-weight: 100;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_typography\.scss}line{font-family:\0000348}}
+.subTitle {
+  margin: -8px 2px;
+  color: #999999;
+}
