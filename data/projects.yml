@@ -1,0 +1,72 @@
+projects:
+ - name : Sentosa Cove
+   category : Residential
+   url : sentosa-cove
+   desc : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ab magnam doloribus, doloremque fugiat cum itaque eveniet inventore, sit, quam unde? Deleniti recusandae harum quae porro nisi dolorum sit optio! Accusamus laudantium perferendis necessitatibus praesentium autem perspiciatis asperiores laboriosam, provident neque laborum illo, numquam expedita ullam sed harum, non nobis quasi, voluptates unde officia ut natus ipsam corrupti. Commodi dolor illo explicabo molestiae, neque, eaque ratione. Sequi odit suscipit voluptatem, optio ducimus laborum incidunt tempore modi deleniti, alias dolor nobis, est ipsam nulla laboriosam magni officia commodi officiis. Voluptatum sapiente repellat quaerat quos, eaque est, praesentium sunt? Dolor, eveniet, officia."
+   images:
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+
+ - name : AMK Hub
+   category : Commercial
+   url : amk-hub
+   desc : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, temporibus."
+   images:
+    - http://i.imgur.com/bAZWoqx.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+ - name : Chua Chu Kang Ave 5
+   category : Residential
+   url : cck-ave-5
+   desc : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, temporibus."
+   images:
+    - http://i.imgur.com/PgmEBSB.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+ - name : Jurong West st.42
+   category : Residential
+   url : jurong-west-st-42
+   desc : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, temporibus."
+   images:
+    - http://i.imgur.com/aboaFoB.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+ - name : Bukit Batok
+   category : Residential
+   url : bukit-batok
+   desc : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, temporibus."
+   images:
+    - http://i.imgur.com/UORFJ3w.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+ - name : Sembawang Shopping Center
+   category : Residential
+   url : ssc
+   desc : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, temporibus."
+   images:
+    - http://i.imgur.com/PgmEBSB.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+ - name : Takashimaya
+   category : Residential
+   url : takashimaya
+   desc : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, temporibus."
+   images:
+    - http://i.imgur.com/aboaFoB.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+ - name : Ion Orchard
+   category : Residential
+   url : ion-orchard
+   desc : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, temporibus."
+   images:
+    - http://i.imgur.com/UORFJ3w.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg
+    - http://i.imgur.com/bwy74ok.jpg

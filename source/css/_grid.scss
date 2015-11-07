@@ -1,0 +1,78 @@
+#container{
+	@include center(100%, 0px );
+}
+
+section{
+	margin: 20px 0;
+	text-align: center;
+}
+
+.group{
+	@include cf();
+  .content &{
+    @include center(70%, 0px );
+    @include breakpoint($mobile){
+      @include center(100%, 20px );
+    }
+  }
+}
+.col-1-2{
+	@include col(1/2);
+	@include breakpoint($mobile){
+    @include col(1);
+  }
+}
+.grid{
+	@include cf();
+}
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-sizer{
+   @include breakpoint($mobile){
+    width: 100%;
+  }
+}
+
+.grid-item {
+  float: left;
+  @include breakpoint($mobile){
+    width: 100%;
+  }
+
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5)
+  }
+
+  h3{
+  	@include align();
+  	margin:0;
+  	font-weight: 100;
+  	color:white
+  }
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+  width:100%;
+  height:auto;
+}
+
+img{
+  min-width:100%;
+  width:100%;
+  height:auto;
+}
+
+.noPadding{
+  padding:0;
+}
+

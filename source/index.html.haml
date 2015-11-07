@@ -1,0 +1,9 @@
+- content_for(:title, "home")
+.grid
+	.grid-sizer
+		- data.projects.projects.each do | project | 
+			.grid-item
+				= link_to("projects/#{project.url}/") do
+					= image_tag "#{project.images[0]}"
+					.overlay
+						%h3 #{project.name}

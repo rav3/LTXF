@@ -1,0 +1,24 @@
+!!!5
+%html{:lang => "en"}
+  %head
+    %meta{'http-equiv' => "X-UA-Compatible", :content => "IE=edge,chrome=1" }
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0, user-scalable=no" }
+    %link{ :href=>'https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,400italic,600italic,700italic,700', :rel=>'stylesheet', :type=>'text/css' }
+    %link{ :href=>'/css/all.css', :rel=>'stylesheet', :type=>'text/css' }
+    %title= "Christine | "  + yield_content(:title).to_s 
+    %script{:type => "text/javascript", :src => "/js/head.js"}
+
+  %body
+    %div#topbar
+      = link_to("/") do
+        .siteTitle
+          %h2.title Christine Lim
+          %h6.subTitle Interior Visualiser
+
+    %div#container.noPadding
+      = yield
+
+
+    %script{:type => "text/javascript", :src => "/js/all.js"}
+
+   

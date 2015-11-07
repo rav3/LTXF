@@ -1,0 +1,16 @@
+{
+  "name": "LTXF",
+  "version": "1.0.0",
+  "authors": [
+    "LT <rav3tey@gmail.com>"
+  ],
+  "description": "Christine's Portfolio",
+  "license": "MIT",
+  "devDependencies": {
+    "jeet": "~6.1.2",
+    "compass-breakpoint": "~2.6.1",
+    "masonry": "~3.3.2",
+    "imagesloaded": "~3.2.0",
+    "headjs": "~1.0.3"
+  }
+}

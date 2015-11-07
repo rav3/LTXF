@@ -1,0 +1,15 @@
+- content_for(:title, project.name)
+%section.content
+	.group.content
+		%h1 #{project.name}
+		%p.category #{project.category}
+		%p #{project.desc}
+	
+%section.graphics
+	.grid
+		.grid-sizer
+			- project.images.each do | image |
+				-# = image_tag "img/projects/#{project.url}/#{image}"
+				.grid-item
+					= image_tag "#{image}"
+

@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+html,
+body { 
+	height: 100%; 
+	background-color : #f0f0f0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	font-size : 100%;
+	@include breakpoint($mobile){
+		font-size: 120%;
+	}
+}
+
+
+
+#topbar{
+	@include cf();
+	padding:40px 20px;
+	
+	.siteTitle{
+		float:left;
+	}
+
+
+	nav{
+		@include cf();
+		float:right;
+	}
+}
+
