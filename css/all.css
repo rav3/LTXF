@@ -530,7 +530,7 @@ body {
 @media (max-width: 420px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_base\.scss}line{font-family:\0000310}}
   body {
-    font-size: 150%;
+    font-size: 120%;
   }
 }
 
@@ -608,8 +608,52 @@ section {
 .group:after {
   clear: both;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000312}}
+.content .group {
+  *zoom: 1;
+  width: auto;
+  max-width: 70%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003345}}
+.content .group:before, .content .group:after {
+  content: '';
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003350}}
+.content .group:after {
+  clear: both;
+}
+@media (max-width: 420px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000312}}
+  .content .group {
+    *zoom: 1;
+    width: auto;
+    max-width: 100%;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003345}}
+  .content .group:before, .content .group:after {
+    content: '';
+    display: table;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/bower_components\/jeet\/scss\/jeet\/_grid\.scss}line{font-family:\00003350}}
+  .content .group:after {
+    clear: both;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000319}}
 .col-1-2 {
   *zoom: 1;
   float: left;
@@ -633,7 +677,7 @@ section {
   margin-right: 0%;
 }
 @media (max-width: 420px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000319}}
   .col-1-2 {
     *zoom: 1;
     float: left;
@@ -658,7 +702,7 @@ section {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000325}}
 .grid {
   *zoom: 1;
 }
@@ -672,30 +716,30 @@ section {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000328}}
 .grid-sizer,
 .grid-item {
   width: 33.333%;
 }
 
 @media (max-width: 420px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000333}}
   .grid-sizer {
     width: 100%;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000339}}
 .grid-item {
   float: left;
 }
 @media (max-width: 420px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000339}}
   .grid-item {
     width: 100%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000345}}
 .grid-item .overlay {
   position: absolute;
   top: 0;
@@ -704,7 +748,7 @@ section {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000354}}
 .grid-item h3 {
   position: absolute;
   transform-style: preserve-3d;
@@ -716,7 +760,7 @@ section {
   color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000362}}
 .grid-item img {
   display: block;
   max-width: 100%;
@@ -724,14 +768,14 @@ section {
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000369}}
 img {
   min-width: 100%;
   width: 100%;
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lt\/Desktop\/Projects\/LTXF\/source\/css\/_grid\.scss}line{font-family:\0000375}}
 .noPadding {
   padding: 0;
 }
